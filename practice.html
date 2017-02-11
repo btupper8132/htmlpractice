@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head>
+	<script src="jquery-3.1.1.js"></script>
+	<style>
+		body{
+			color: black;
+			font-family: verdana;
+			margin: 0;		
+		}
+		header {
+			background: url("cloud.jpg");
+			background-size: cover;
+			text-align: center;
+			font-size: 24px;
+			font-weight: bold;
+
+		}
+		a{
+			color: black;
+		}
+		h1{
+			font-size: 70px;
+		}
+		img {
+			
+			margin: 40px 0px 0px 0px;
+			border: 7px solid white;
+			border-radius: 20px;
+		}
+
+		ul{
+			padding: 10px 0px 30px 0px;
+			background: white;
+		}
+
+		li{
+			display: inline;
+			padding: 0px 30px 0px 0px;
+		}
+		p{
+			margin: 0px 0px 100px 0px;
+		}
+
+		.aliza {
+			padding: 0px 20px;
+			max-width: 600px;
+			margin: 0 auto;
+		}
+
+		@media (max-width: 600px){
+		h1{
+			font-size: 36px;
+		}
+		li{
+			display: block;
+			padding: 5px;
+		}
+}
+	</style>
+</head>
+<body>
+	<header>
+	<img src="klein_bottle.png" height= 260px>
+	<h1>Ben Tupper</h1>
+	<ul>
+		<li><a href="http://www.google.com">Klein Bottle</a></li>
+		<li><a href="http://www.google.com">Artificial Neural Networks</a></li>
+		<li><a href="http://www.google.com">Arithmetic Compression</a></li>
+	</ul>
+	</header>
+	<div class = "aliza">
+		<div>
+			<h2>Klein Bottle</h2>
+			<p>Wow, aren't Klein Bottles Cool? One side! They are the cooler, badder, bigger brother of mobius strips.
+			</p>
+		</div>
+		<div>
+			<h2>Artificial Neural Networks</h2>
+			<p>Artificial Neural Networks (ANNs) can learn to read patterns based on being told what's right and what's wrong. They don't even need to know the rules. It's like using classical conditioning on dogs.
+			</p>
+		</div>
+		<div>
+			<h2>Arithmetic Compression</h2>
+			<p>This is the industry standard for compression right now. Understandably so - since it can compress data down to within two bits of the theoretical limit!
+			</p>
+		</div>	
+</div>
+<button>Like</button>
+<script>
+
+    $("button").on("click", function() {
+		alert("clicked!")
+	})
+  </script>
+
+</body>
+
+
+
+
+
+
+
